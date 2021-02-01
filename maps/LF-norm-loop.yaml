@@ -1,0 +1,164 @@
+objects:
+- height: 0.25506274088726494
+  kind: tree
+  pos:
+  - 2.512137697271649
+  - 4.418468740437669
+  rotate: 0.0
+  tree_random_0: null
+- height: 0.17946416285001177
+  kind: tree
+  pos:
+  - 4.63979382166531
+  - 1.4897377305747943
+  rotate: 0.0
+  tree_random_1: null
+- height: 0.180795561348376
+  kind: tree
+  pos:
+  - 0.6717694020634224
+  - 1.29443810397217
+  rotate: 0.0
+  tree_random_2: null
+- height: 0.214778706959619
+  kind: tree
+  pos:
+  - 2.7710538384901215
+  - 0.3158642579871378
+  rotate: 0.0
+  tree_random_3: null
+- height: 0.16155051714073929
+  kind: tree
+  pos:
+  - 2.1349235207028143
+  - 2.2267217892126023
+  rotate: 0.0
+  tree_random_4: null
+- height: 0.2677576994502515
+  kind: tree
+  pos:
+  - 3.833781048096621
+  - 4.757642481679811
+  rotate: 0.0
+  tree_random_5: null
+- height: 0.3459731489256438
+  kind: tree
+  pos:
+  - 4.202593299640196
+  - 0.42851795578067
+  rotate: 0.0
+  tree_random_6: null
+- height: 0.2419505294061819
+  kind: tree
+  pos:
+  - 1.8462891255739142
+  - 7.41078597844808
+  rotate: 0.0
+  tree_random_7: null
+- height: 0.16935031437583142
+  kind: tree
+  pos:
+  - 4.50782888900493
+  - 7.276289709204268
+  rotate: 0.0
+  tree_random_8: null
+- height: 0.2593548733796731
+  kind: tree
+  pos:
+  - 0.13475944133241408
+  - 3.516716306309613
+  rotate: 0.0
+  tree_random_9: null
+- height: 0.20439853043156056
+  kind: tree
+  pos:
+  - 3.781016956590903
+  - 7.302487137520135
+  rotate: 0.0
+  tree_random_10: null
+- height: 0.34376416549518485
+  kind: tree
+  pos:
+  - 0.517443163783122
+  - 0.5402569757379609
+  rotate: 0.0
+  tree_random_11: null
+- height: 0.26279224000901025
+  kind: tree
+  pos:
+  - 0.7091951225047195
+  - 5.7645388158909885
+  rotate: 0.0
+  tree_random_12: null
+- height: 0.3460771629965395
+  kind: tree
+  pos:
+  - 5.197294947005784
+  - 2.351592412770957
+  rotate: 0.0
+  tree_random_13: null
+- height: 0.16862827873323638
+  kind: tree
+  pos:
+  - 5.120471384266569
+  - 1.5139013496623184
+  rotate: 0.0
+  tree_random_14: null
+- height: 0.16130078180865073
+  kind: tree
+  pos:
+  - 5.333709795034719
+  - 7.604016445548631
+  rotate: 0.0
+  tree_random_15: null
+tile_size: 0.585
+tiles:
+- - floor
+  - floor
+  - floor
+  - floor
+  - floor
+  - floor
+- - floor
+  - curve_left/W
+  - straight/W
+  - curve_left/N
+  - floor
+  - floor
+- - floor
+  - straight/N
+  - floor
+  - straight/N
+  - floor
+  - floor
+- - floor
+  - straight/N
+  - floor
+  - curve_right/W
+  - curve_left/N
+  - floor
+- - floor
+  - straight/N
+  - floor
+  - floor
+  - straight/N
+  - floor
+- - floor
+  - straight/N
+  - floor
+  - floor
+  - straight/N
+  - floor
+- - floor
+  - curve_left/S
+  - straight/E
+  - straight/E
+  - curve_left/E
+  - floor
+- - floor
+  - floor
+  - floor
+  - floor
+  - floor
+  - floor
+version: 1

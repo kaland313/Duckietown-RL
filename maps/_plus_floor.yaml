@@ -1,0 +1,10 @@
+tiles:
+- [floor   , floor   , curve_left/W , straight/W   , curve_left/N , floor   , floor]
+- [floor   , floor   , straight/S   , floor      , straight/N   , floor   , floor]
+- [curve_left/W , straight/W   , curve_left/E , floor      , curve_left/S , straight/W   , curve_left/N]
+- [straight/S   , floor      , floor      , floor      , floor      , floor      , straight/N]
+- [curve_left/S , straight/E   , curve_left/N , floor      , curve_left/W , straight/E   , curve_left/E]
+- [floor   , floor   , straight/S   , floor      , straight/N   , floor   , floor]
+- [floor   , floor   , curve_left/S , straight/E   , curve_left/E , floor   , floor]
+
+tile_size: 0.585

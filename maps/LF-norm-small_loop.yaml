@@ -1,0 +1,84 @@
+objects:
+- height: 0.331749291496105
+  kind: tree
+  pos:
+  - 3.1218244182511317
+  - 0.5879251872227034
+  rotate: 0.0
+  tree_random_0: null
+- height: 0.37778368273279705
+  kind: tree
+  pos:
+  - 4.631286375871837
+  - 2.672649573897966
+  rotate: 0.0
+  tree_random_1: null
+- height: 0.1651654631024421
+  kind: tree
+  pos:
+  - 1.1885437568605768
+  - 0.26667374209093886
+  rotate: 0.0
+  tree_random_2: null
+- height: 0.2982557461981456
+  kind: tree
+  pos:
+  - 3.775562392971428
+  - 4.8513005167143906
+  rotate: 0.0
+  tree_random_3: null
+- height: 0.2211048236319514
+  kind: tree
+  pos:
+  - 1.3739707949575701
+  - 4.129290591350787
+  rotate: 0.0
+  tree_random_4: null
+- height: 0.16677434967094268
+  kind: tree
+  pos:
+  - 0.6142394849654916
+  - 2.7167721675938585
+  rotate: 0.0
+  tree_random_5: null
+- height: 0.1610048955810315
+  kind: tree
+  pos:
+  - 4.862279896297192
+  - 1.137339452607152
+  rotate: 0.0
+  tree_random_6: null
+- height: 0.3335241126799271
+  kind: tree
+  pos:
+  - 1.5110077446498555
+  - 4.844445960648311
+  rotate: 0.0
+  tree_random_7: null
+tile_size: 0.585
+tiles:
+- - floor
+  - floor
+  - floor
+  - floor
+  - floor
+- - floor
+  - curve_left/W
+  - straight/W
+  - curve_left/N
+  - floor
+- - floor
+  - straight/S
+  - floor
+  - straight/N
+  - floor
+- - floor
+  - curve_left/S
+  - straight/E
+  - curve_left/E
+  - floor
+- - floor
+  - floor
+  - floor
+  - floor
+  - floor

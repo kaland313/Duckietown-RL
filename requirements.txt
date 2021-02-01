@@ -1,0 +1,16 @@
+aiohttp==3.6.2
+base58==1.0.3
+cloudpickle==1.2.2
+GPUtil==1.4.0
+grpcio==1.27.2
+gym==0.15.4
+opencv-python==4.2.0.34
+ray[rllib]==0.8.2
+ray[debug]==0.8.2
+pandas==1.0.1
+psutil==5.7.0
+seaborn==0.10.0
+setproctitle==1.1.10
+tensorboardX==2.0
+tqdm==4.46.0
+wandb==0.8.29

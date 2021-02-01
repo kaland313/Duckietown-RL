@@ -1,0 +1,10 @@
+carnivalmirror==0.6.2
+duckietown-serialization-ds1==1.0.10
+duckietown-world-daffy==6.0.24
+pycontracts==1.8.12
+pycontracts3==3.0.2
+pygeometry==1.5.6
+pygeometry-z6==2.0.5
+zuper-commons-z6==6.1.5
+zuper-typing-z6==6.1.8
+

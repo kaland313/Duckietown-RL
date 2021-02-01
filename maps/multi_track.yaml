@@ -1,0 +1,26 @@
+# 12x12 tiles with left turns at the corners going in a counter-clockwise loop
+tiles:
+- [asphalt , asphalt    , asphalt      , asphalt      , asphalt      , asphalt      , asphalt       , asphalt   , asphalt     , asphalt   , asphalt   , asphalt       , asphalt       , asphalt   , asphalt     , asphalt]
+- [asphalt, curve_left/W, straight/W   , straight/W   , straight/W   , straight/W    , straight/W    , straight/W, straight/W  , straight/W, straight/W, straight/W    , straight/W    , straight/W, curve_left/N, asphalt]
+- [asphalt, straight/S  , asphalt      , asphalt      , asphalt      , asphalt       , asphalt       , asphalt   , asphalt     , asphalt   , asphalt   , asphalt       , asphalt       , asphalt   , straight/N  , asphalt]
+- [asphalt, straight/S  , asphalt      , asphalt      , asphalt      , asphalt       , asphalt       , asphalt   , asphalt     , asphalt   , asphalt   , asphalt       , asphalt       , asphalt   , straight/N  , asphalt]
+- [asphalt, straight/S  , asphalt      , asphalt      , asphalt      , asphalt       , asphalt       , asphalt   , asphalt     , asphalt   , asphalt   , asphalt       , asphalt       , asphalt   , straight/N  , asphalt]
+- [asphalt, straight/S  , asphalt      , asphalt      , asphalt      , asphalt       , asphalt       , asphalt   , asphalt     , asphalt   , asphalt   , asphalt       , asphalt       , asphalt   , straight/N  , asphalt]
+- [asphalt, curve_left/S, straight/E   , straight/E   , straight/E   , straight/E    , straight/E    , straight/E, straight/E  , straight/E, straight/E, straight/E    , straight/E    , straight/E, curve_left/E, asphalt]
+- [asphalt, asphalt     , asphalt      , asphalt      , asphalt      , asphalt       , asphalt       , asphalt   , asphalt     , asphalt   , asphalt   , asphalt       , asphalt       , asphalt   , asphalt     , asphalt]
+- [asphalt, curve_left/W, straight/W   , straight/W   , straight/W   , straight/W    , curve_left/N, asphalt   ,curve_left/W , straight/W  , curve_left/N , asphalt   , curve_right/N  , straight/E, curve_right/E , asphalt]
+- [asphalt, straight/S  , floor        , floor        , floor        , floor         , straight/N  , asphalt   ,straight/S   , asphalt     , straight/N   , asphalt   , straight/N     , asphalt   , straight/S    , asphalt]
+- [asphalt, straight/S  , floor        , floor        , floor        , floor         , straight/N  , asphalt   ,curve_left/S , straight/E  , curve_left/E , asphalt   , curve_right/W  , straight/W, curve_right/S , asphalt]
+- [asphalt, straight/S  , floor        , floor        , curve_right/N, straight/E, curve_left/E, asphalt   , asphalt   , asphalt   , asphalt   , asphalt   , asphalt   , asphalt   , asphalt   , asphalt] 
+- [asphalt, curve_left/S, straight/E   , straight/E   , curve_left/E , asphalt   , asphalt     , asphalt   , asphalt   , asphalt   , curve_left/W , straight/W   , curve_left/N , asphalt   , asphalt   , asphalt]
+- [asphalt, asphalt     , asphalt      , asphalt      , asphalt      , asphalt       , asphalt       , asphalt  , asphalt       , asphalt       , straight/S   , asphalt      , straight/N   , asphalt   , asphalt   , asphalt]
+- [asphalt, curve_left/W, straight/W   , curve_left/N , asphalt      , asphalt, asphalt, asphalt,curve_left/W , straight/W   , curve_left/E , asphalt      , curve_left/S , straight/W   , curve_left/N , asphalt]
+- [asphalt, straight/S  , asphalt      , straight/N   , asphalt      , asphalt, asphalt, asphalt,straight/S   , asphalt      , asphalt      , asphalt      , asphalt      , asphalt      , straight/N   , asphalt]
+- [asphalt, straight/S  , asphalt      , curve_left/S , curve_right/E, asphalt, asphalt, asphalt   ,curve_left/S , straight/E   , curve_left/N , asphalt      , curve_left/W , straight/E   , curve_left/E , asphalt]
+- [asphalt, curve_left/S, curve_right/E, asphalt      , curve_left/S , curve_right/E, asphalt, asphalt   , asphalt   , asphalt   , straight/S   , asphalt      , straight/N   , asphalt   , asphalt   , asphalt]
+- [asphalt, asphalt     , curve_left/S , curve_right/E, asphalt      , curve_left/S, curve_right/E , asphalt   , asphalt   , asphalt   , curve_left/S , straight/E   , curve_left/E , asphalt   , asphalt   , asphalt]
+- [asphalt, asphalt     , asphalt      , curve_left/S , curve_right/E, asphalt, straight/S, asphalt   , asphalt   , asphalt   , asphalt   , asphalt   , asphalt   , asphalt   , asphalt   , asphalt]
+- [asphalt, asphalt     , asphalt      , asphalt      , curve_left/S , straight/W , curve_left/E, asphalt   , straight/W   , straight/W    , straight/W    , straight/W    , straight/W    , straight/W, straight/W, asphalt]
+- [asphalt, asphalt     , asphalt      , asphalt      , asphalt      , asphalt       , asphalt       , asphalt, asphalt, asphalt, asphalt, asphalt, asphalt, asphalt, asphalt, asphalt]
+
+tile_size: 0.585

@@ -1,0 +1,94 @@
+# This is a closed loop (no intersections) with a few obstacles directly
+# on the road, which have to be avoided.
+
+tiles:
+- [floor  , floor       , floor     , floor     , floor         , floor     , floor         , floor  ]
+- [floor  , curve_left/W, straight/W, straight/W, straight/W    , straight/W, curve_left/N  , floor  ]
+- [floor  , straight/S  , floor     , floor     , floor         , floor     , straight/N    , floor  ]
+- [floor  , straight/S  , floor     , floor     , floor         , floor     , straight/N    , floor  ]
+- [floor  , straight/S  , floor     , floor     , curve_right/N , straight/E, curve_left/E  , floor  ]
+- [floor  , curve_left/S, straight/E, straight/E, curve_left/E  , floor     , floor         , floor  ]
+- [floor  , floor       , floor     , floor     , floor         , floor     , floor         , floor  ]
+
+# NOTE: obstacles cannot be optional, because they will change for
+# every episode, and this will interfere with imitation learning
+
+# Coordinates: [Column, Row]
+#  [0., 0.] is the top left corner of the top left tile
+#  The coordinates are rescaled based on the tile size, such that coordinates [0.5, 1.5]
+#  would mean middle of the first column of tiles, middle of the second row
+# Directions:
+#  ->: 0
+#  ^: 90
+#  v: -90=270
+#  <-: 180
+objects:
+
+- kind: duckie
+  pos: [3.0, 1.0]
+  rotate: 10
+  height: 0.06
+  
+# Top straight
+#  Inner
+- kind: duckiebot
+  pos: [3.25, 1.75]
+  rotate: 0
+  height: 0.12
+  static: True
+#  Outer
+- kind: duckiebot
+  pos: [4.75, 1.25]
+  rotate: 180
+  height: 0.12
+  static: True  
+
+# Right straight
+#  Inner
+- kind: duckiebot
+  pos: [6.25, 2.5]
+  rotate: -90
+  height: 0.12
+  static: True  
+#  Outer 
+- kind: duckiebot
+  pos: [6.75, 3.75]
+  rotate: 90
+  height: 0.12
+  static: True  
+  
+# Bootom straight
+#  Inner
+- kind: duckiebot
+  pos: [3.5, 5.25]
+  rotate: 180
+  height: 0.12
+  static: True
+#  Outer, in turn
+- kind: duckiebot
+  pos: [4.65, 5.5]
+  rotate: 45
+  height: 0.12
+  static: True
+
+# Left straight
+#  Inner
+- kind: duckiebot
+  pos: [1.75, 3.5]
+  rotate: 90
+  height: 0.12
+  static: True
+#  Outer upper
+- kind: duckiebot
+  pos: [1.2, 2.5]
+  rotate: -90
+  height: 0.12
+  static: True  
+#  Outer lower  
+- kind: duckiebot
+  pos: [1.25, 4.75]
+  rotate: -90
+  height: 0.12
+  static: True  
+
+tile_size: 0.585

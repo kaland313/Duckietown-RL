@@ -1,0 +1,66 @@
+# === Config file for PPO ===================================================
+# Total timesteps used to train a model (termination condition).
+# Note, that scientific notation is only interpreted as a number if the . and the sign are included!
+timesteps_total: 1.e+6
+rllib_config:
+  # === RLlib common congfig ================================================
+  # https://ray.readthedocs.io/en/latest/rllib-training.html#common-parameters
+  # Number of rollout worker actors to create for parallel sampling. Setting
+  # this to 0 will force rollouts to be done in the trainer actor.
+  num_workers: 16
+  # Default sample batch size (unroll length). Batches of this size are
+  # collected from rollout workers until train_batch_size is met.
+  sample_batch_size: 265
+  # Number of GPUs to allocate to the trainer process. This can be fractional
+  # (e.g., 0.3 GPUs).
+  num_gpus: 1
+  # Training batch size, if applicable. Should be >= sample_batch_size.
+  # Samples batches will be concatenated together to a batch of this size,
+  # which is then passed to SGD.
+  train_batch_size: 4096
+  # Discount factor of the MDP.
+  gamma: 0.99
+  # The default learning rate.
+  # Note, that scientific notation is only interpreted as a number if the . and the sign are included!
+  lr: 5.e-5
+  # Whether to write episode stats and videos to the agent log dir. This is
+  # typically located in ~/ray_results.
+  monitor: false
+  # Evaluate with every `evaluation_interval` training iterations.
+  # The evaluation stats will be reported under the "evaluation" metric key.
+  # Note that evaluation is currently not parallelized, and that for Ape-X
+  # metrics are already only reported for the lowest epsilon workers.
+  "evaluation_interval": None # 25
+  # Number of episodes to run per evaluation period. If using multiple
+  # evaluation workers, we will run at least this many episodes total.
+  "evaluation_num_episodes": 2
+  # Typical usage is to pass extra args to evaluation env creator
+  # and to disable exploration by computing deterministic actions.
+  # IMPORTANT NOTE: Policy gradient algorithms are able to find the optimal
+  # policy, even if this is a stochastic one. Setting "explore=False" here
+  # will result in the evaluation workers not using this optimal policy!
+  "evaluation_config":
+    monitor: true
+  # This argument, in conjunction with worker_index, sets the random seed of
+  # each worker, so that identically configured trials will have identical
+  # results. This makes experiments reproducible.
+  seed: 1234
+  # === PPO-specific config =================================================
+  # https://ray.readthedocs.io/en/latest/rllib-algorithms.html#proximal-policy-optimization-ppo
+  # The GAE(lambda) parameter.
+  lambda: 0.95
+  # Total SGD batch size across all devices for SGD. This defines the
+  # minibatch size within each epoch.
+  sgd_minibatch_size: 128
+  # Coefficient of the value function loss. IMPORTANT: you must tune this if
+  # you set vf_share_layers: True. (it's False by default).
+  vf_loss_coeff: 0.5
+   # Coefficient of the entropy regularizer.
+  entropy_coeff: 0.0
+  # PPO clip parameter.
+  clip_param: 0.2
+  # Clip param for the value function. Note that this is sensitive to the
+  # scale of the rewards. If your expected V is large, increase this.
+  vf_clip_param: 0.2
+  # If specified, clip the global norm of gradients by this amount.
+  grad_clip: 0.5

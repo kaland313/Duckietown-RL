@@ -1,0 +1,250 @@
+objects:
+- height: 0.3810612382005564
+  kind: tree
+  pos:
+  - 5.493109555387033
+  - 6.5757842384334495
+  rotate: 0.0
+  tree_random_0: null
+- height: 0.2566752850047209
+  kind: tree
+  pos:
+  - 6.418760692251534
+  - 4.726581123684948
+  rotate: 0.0
+  tree_random_1: null
+- height: 0.26029513232841606
+  kind: tree
+  pos:
+  - 7.81119533079539
+  - 8.1507812682192
+  rotate: 0.0
+  tree_random_2: null
+- height: 0.28257915519319954
+  kind: tree
+  pos:
+  - 0.43300904904802384
+  - 0.5673418715233218
+  rotate: 0.0
+  tree_random_3: null
+- height: 0.35293763728098726
+  kind: tree
+  pos:
+  - 2.192684744585144
+  - 0.3628909352099683
+  rotate: 0.0
+  tree_random_4: null
+- height: 0.2708505181519916
+  kind: tree
+  pos:
+  - 2.2742594604177926
+  - 3.3446553422424223
+  rotate: 0.0
+  tree_random_5: null
+- height: 0.37585538915445915
+  kind: tree
+  pos:
+  - 0.3447368952684275
+  - 6.350836908439653
+  rotate: 0.0
+  tree_random_6: null
+- height: 0.3131617653473674
+  kind: tree
+  pos:
+  - 0.7227285533615889
+  - 8.54195623092303
+  rotate: 0.0
+  tree_random_7: null
+- height: 0.16633363933323303
+  kind: tree
+  pos:
+  - 3.288110422230723
+  - 5.511140505647833
+  rotate: 0.0
+  tree_random_8: null
+- height: 0.18405089007239303
+  kind: tree
+  pos:
+  - 6.899785705913997
+  - 2.431966016577432
+  rotate: 0.0
+  tree_random_9: null
+- height: 0.26388225684226374
+  kind: tree
+  pos:
+  - 7.608397385773735
+  - 0.6059566815074611
+  rotate: 0.0
+  tree_random_10: null
+- height: 0.18949969922311033
+  kind: tree
+  pos:
+  - 4.766407773025542
+  - 2.171708810914831
+  rotate: 0.0
+  tree_random_11: null
+- height: 0.25188173409014736
+  kind: tree
+  pos:
+  - 4.733133538270456
+  - 0.3711413732472124
+  rotate: 0.0
+  tree_random_12: null
+- height: 0.2650978100632245
+  kind: tree
+  pos:
+  - 4.502403556770805
+  - 5.668542782153882
+  rotate: 0.0
+  tree_random_13: null
+- height: 0.3584589330272965
+  kind: tree
+  pos:
+  - 0.6494430895679175
+  - 1.5742221092431556
+  rotate: 0.0
+  tree_random_14: null
+- height: 0.18008712697679552
+  kind: tree
+  pos:
+  - 2.239498516616178
+  - 2.6776173221680573
+  rotate: 0.0
+  tree_random_15: null
+- height: 0.18095559155877533
+  kind: tree
+  pos:
+  - 1.6384653242773184
+  - 7.4938840050464774
+  rotate: 0.0
+  tree_random_16: null
+- height: 0.2652746458907757
+  kind: tree
+  pos:
+  - 2.236342114760826
+  - 8.638132959795882
+  rotate: 0.0
+  tree_random_17: null
+- height: 0.18740144072325682
+  kind: tree
+  pos:
+  - 4.212043458380267
+  - 1.4882153189254863
+  rotate: 0.0
+  tree_random_18: null
+- height: 0.19402259714560305
+  kind: tree
+  pos:
+  - 4.680045498719743
+  - 1.6662125368831848
+  rotate: 0.0
+  tree_random_19: null
+- height: 0.2478949509969929
+  kind: tree
+  pos:
+  - 7.56364964303924
+  - 5.796003408662975
+  rotate: 0.0
+  tree_random_20: null
+- height: 0.28067924882803386
+  kind: tree
+  pos:
+  - 0.8890818248830651
+  - 4.365904477700757
+  rotate: 0.0
+  tree_random_21: null
+- height: 0.20594011181933183
+  kind: tree
+  pos:
+  - 0.46881494606103846
+  - 2.42067632156507
+  rotate: 0.0
+  tree_random_22: null
+- height: 0.3786416396044912
+  kind: tree
+  pos:
+  - 3.2278624187294107
+  - 7.372530540017076
+  rotate: 0.0
+  tree_random_23: null
+- height: 0.3594830241898046
+  kind: tree
+  pos:
+  - 4.134841386530786
+  - 8.494301974949638
+  rotate: 0.0
+  tree_random_24: null
+tile_size: 0.585
+tiles:
+- - floor
+  - floor
+  - floor
+  - floor
+  - floor
+  - floor
+  - floor
+  - floor
+- - floor
+  - curve_left/W
+  - straight/W
+  - curve_left/N
+  - floor
+  - floor
+  - floor
+  - floor
+- - floor
+  - straight/S
+  - floor
+  - straight/N
+  - floor
+  - floor
+  - floor
+  - floor
+- - floor
+  - straight/S
+  - floor
+  - curve_left/S
+  - curve_right/E
+  - floor
+  - floor
+  - floor
+- - floor
+  - straight/S
+  - floor
+  - floor
+  - curve_left/S
+  - curve_right/E
+  - floor
+  - floor
+- - floor
+  - straight/S
+  - floor
+  - floor
+  - floor
+  - curve_left/S
+  - curve_right/E
+  - floor
+- - floor
+  - curve_left/S
+  - straight/W
+  - straight/W
+  - curve_right/E
+  - floor
+  - straight/S
+  - floor
+- - floor
+  - floor
+  - floor
+  - floor
+  - curve_left/S
+  - straight/W
+  - curve_left/E
+  - floor
+- - floor
+  - floor
+  - floor
+  - floor
+  - floor
+  - floor
+  - floor
+  - floor
