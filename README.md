@@ -70,8 +70,8 @@ Before running any demonstration or training script, the installed conda environ
 To download and run the pre-built Docker image, run the following commands:
 
 ```
-docker pull kaland/bme-duckietown:dtaido5
-docker run --rm -dt -p 2233:22 -p 7000:7000 -p 7001:7001 --name dtaido5 kaland/bme-duckietown:dtaido5
+docker pull kaland/duckietown-rl:dtaido5
+docker run --rm -dt -p 2233:22 -p 7000:7000 -p 7001:7001 --name dtaido5 kaland/duckietown-rl:dtaido5
 ```
 
 If your machine has an Nvidia GPU and `nvidia-docker` is set up, replace `docker` with `nvidia-docker` in the previous command.
@@ -267,7 +267,7 @@ To remove the installed conda environment from your system run:
 
 To stop and remove the container from your system run
 
-```docker stop duckietownthesis```
+```docker stop dtaido5```
 
 ## Copyright
 
