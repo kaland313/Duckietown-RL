@@ -269,6 +269,22 @@ To stop and remove the container from your system run
 
 ```docker stop dtaido5```
 
+## Clarification of some class and config names
+Action representations
+| Action representation name in paper | [Config option in code](https://github.com/kaland313/Duckietown-RL/blob/22f17b3bdad8aca7cec345ad0661af9aed443d90/config/config.yml#L33-L36) |
+| ----------------------------------- | ------------------------------------------------------------ |
+| Steering                            | 'heading'                                                    |
+| Wheel Velocity - Braking            | 'leftright_braking'                                          |
+| Wheel Velocity - Positive Only      | 'leftright_clipped'                                          |
+| Wheel Velocity                      | 'leftright'                                                  |
+
+Reward functions
+| Reward strategy name in paper | [Config option in code](https://github.com/kaland313/Duckietown-RL/blob/22f17b3bdad8aca7cec345ad0661af9aed443d90/config/config.yml#L37-L39) | [Reward classes used](https://github.com/kaland313/Duckietown-RL/blob/22f17b3bdad8aca7cec345ad0661af9aed443d90/duckietown_utils/wrappers/reward_wrappers.py) |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Orientation reward            | 'posangle', ('target_orientation')                           | DtRewardPosAngle and DtRewardVelocity                        |
+| Distance travelled reward     | 'lane_distance'                                              | DtRewardDistanceTravelled                                    |
+
+
 ## Copyright
 
 The hardware used in our experiments and parts of the software was developed by the [Duckietown project](https://www.duckietown.org). Software components in this repository may partially be copied or derived from the [Duckietown project's repositories](https://github.com/duckietown). 
