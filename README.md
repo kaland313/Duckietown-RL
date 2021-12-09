@@ -2,18 +2,31 @@
 
 # Duckietown-RL
 
-This repository contains code for our paper: [*Sim-to-real reinforcement learning applied to end-to-end vehicle control*](https://arxiv.org/abs/2012.07461).
+This repository contains code for our papers:
 
-|                                                              |                                                              |
+| <a href="https://acta.imeko.org/index.php/acta-imeko/article/view/IMEKO-ACTA-10%20%282021%29-03-04"><img src=".github/PaperPictureActaImeko.png" width="200"/></a> | [*Vision-based reinforcement learning for lane-tracking control*](https://acta.imeko.org/index.php/acta-imeko/article/view/IMEKO-ACTA-10%20%282021%29-03-04) <br/> András Kalapos, Csaba Gór, Róbert Moni, István Harmati <br/> *ACTA IMEKO*, vol. 10, no. 3, Art. no. 3, 2021.<br /><br /> :point_left: Extended journal paper, including the results of AIDO 5 |
 | ------------------------------------------------------------ | :----------------------------------------------------------- |
-| <a href="https://arxiv.org/abs/2012.07461"><img src=".github/PaperPicture.png" width="200"/></a> | [*Sim-to-real reinforcement learning applied to end-to-end vehicle control*](https://arxiv.org/abs/2012.07461). <br/> András Kalapos, Csaba Gór, Róbert Moni, István Harmati <br/>ISMCR 2020 |
+| <a href="https://arxiv.org/abs/2012.07461"><img src=".github/PaperPicture.png" width="200"/></a> | [*Sim-to-real reinforcement learning applied to end-to-end vehicle control*](https://arxiv.org/abs/2012.07461) <br/>András Kalapos, Csaba Gór, Róbert Moni, István Harmati <br/>ISMCR 2020 <br/><br /> :point_left:Original conference paper<br /> :point_left:You can find this paper on [IEEE Explore](https://ieeexplore.ieee.org/document/9263751) and on [arXiv.org](https://arxiv.org/abs/2012.07461). |
 
-You can find our paper on [IEEE Explore](https://ieeexplore.ieee.org/document/9263751) and on [arXiv.org (https://arxiv.org/abs/2012.07461)](https://arxiv.org/abs/2012.07461).
+
 
 Please use this bibtex if you would like to cite our work in your publications:
 
-
+```bibtex
+@article{kalapos2021vision,
+  title={Vision-based reinforcement learning for lane-tracking control},
+  author={Kalapos, Andr{\'a}s and G{\'o}r, Csaba and Moni, R{\'o}bert and Harmati, Istv{\'a}n},
+  journal={ACTA IMEKO},
+  volume={10},
+  number={3},
+  pages={7--14},
+  year={2021}
+}
 ```
+
+Bibtex for our original conference paper:
+
+```bibtex
 @INPROCEEDINGS{Kalapos2020,
   author={András Kalapos and Csaba Gór and Róbert Moni and István Harmati},
   booktitle={2020 23rd International Symposium on Measurement and Control in Robotics (ISMCR)}, 
